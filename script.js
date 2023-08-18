@@ -50,8 +50,4 @@ notesContainer.addEventListener("click", function (e) {
     }
 });
 
-notesContainer.addEventListener("dblclick", function (e) {
-    if (e.target.tagName === "H2") {
-        e.target.classList.toggle("checked");
-    }
-});
+
